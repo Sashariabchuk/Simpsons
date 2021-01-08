@@ -6,7 +6,7 @@
 using namespace std;
 
 // Define the function
-#define M_PI                3.14159265358979323846  /* pi */
+#define M_PI          3.14159265358979323846  /* pi */
 
 float f(float x) { return sin(x)*sin(x)*sin(x); }
 
