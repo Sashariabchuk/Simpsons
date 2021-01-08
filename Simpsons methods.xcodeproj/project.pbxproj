@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		75A264D625A756F0009B63D7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75A264D525A756F0009B63D7 /* main.cpp */; };
+		75A264DF25A86BCA009B63D7 /* test_area.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 75A264DD25A86BCA009B63D7 /* test_area.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		75A264D225A756F0009B63D7 /* Simpsons methods */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Simpsons methods"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A264D525A756F0009B63D7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		75A264DD25A86BCA009B63D7 /* test_area.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test_area.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		75A264D425A756F0009B63D7 /* Simpsons methods */ = {
 			isa = PBXGroup;
 			children = (
+				75A264DD25A86BCA009B63D7 /* test_area.cpp */,
 				75A264D525A756F0009B63D7 /* main.cpp */,
 			);
 			path = "Simpsons methods";
@@ -118,6 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75A264DF25A86BCA009B63D7 /* test_area.cpp in Sources */,
 				75A264D625A756F0009B63D7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
